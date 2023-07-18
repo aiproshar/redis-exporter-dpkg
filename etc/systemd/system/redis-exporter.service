@@ -4,7 +4,7 @@ After=network.target
 Documentation=https://github.com/oliver006/redis_exporter
 
 [Service]
-Type=notify
+Type=simple
 ExecStart=/usr/bin/redis-exporter /etc/redis-exporter/exporter.conf --supervised systemd --daemonize no
 TimeoutStopSec=0
 Restart=always
