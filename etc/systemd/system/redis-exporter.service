@@ -2,17 +2,14 @@
 Description=Redis Exporter based on github.com/oliver006/redis_exporter
 After=network.target
 Documentation=https://github.com/oliver006/redis_exporter
-
 [Service]
 Type=simple
-ExecStart=/usr/bin/redis-exporter /etc/redis-exporter/exporter.conf --supervised systemd --daemonize no
+ExecStart=/usr/bin/redis-exporter
+EnvironmentFile=/etc/redis-exporter/exporter.conf
 TimeoutStopSec=0
 Restart=always
 User=redis
 Group=redis
-
-
-
 [Install]
 WantedBy=multi-user.target
 Alias=redis-exporter.service
