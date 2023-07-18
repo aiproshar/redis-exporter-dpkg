@@ -1,0 +1,7 @@
+Package: redis-exporter
+Version: 1.51.1
+Architecture: x86_64
+Essential: no
+Priority: optional
+Maintainer: Arafat Islam Khan
+Description: Redis Exporter package based on github.com/oliver006/redis_exporter
