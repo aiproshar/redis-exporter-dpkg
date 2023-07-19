@@ -1,6 +1,6 @@
 Package: redis-exporter
 Version: 1.51.1
-Architecture: all
+Architecture: amd64
 Essential: no
 Priority: optional
 Maintainer: Arafat Islam Khan
