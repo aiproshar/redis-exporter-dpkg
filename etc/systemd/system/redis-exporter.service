@@ -1,6 +1,6 @@
 [Unit]
 Description=Redis Exporter based on github.com/oliver006/redis_exporter
-After=network.target redis.service
+After=network.target
 Documentation=https://github.com/oliver006/redis_exporter
 
 [Service]
