@@ -6,5 +6,3 @@ echo "installing debian package"
 dpkg -i redis-exporter-amd64-1.15.1.deb
 
 systemctl enable redis-exporter
-cd ..
-rm -rf ./redis-exporter-amd64-1.15.1
