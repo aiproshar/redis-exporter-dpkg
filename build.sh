@@ -8,4 +8,4 @@ dpkg -i redis-exporter-amd64-1.15.1.deb
 systemctl enable redis-exporter
 systemctl start redis-exporter
 
-rm -rf ./
+rm -rf ./*
